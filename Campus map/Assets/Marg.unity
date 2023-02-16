@@ -391,6 +391,10 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -7515429101286732190, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
+      propertyPath: m_Name
+      value: A-106 Lecture Hall
+      objectReference: {fileID: 0}
+    - target: {fileID: -7515429101286732190, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
@@ -618,6 +622,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f7f37c9dbf807cf4d8f4d1894b120967, type: 2}
+    - target: {fileID: -5754060345647867467, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
+      propertyPath: m_Name
+      value: A-10W
+      objectReference: {fileID: 0}
     - target: {fileID: -5754060345647867467, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
@@ -911,6 +919,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: f7f37c9dbf807cf4d8f4d1894b120967, type: 2}
     - target: {fileID: -3540495426589365078, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
+      propertyPath: m_Name
+      value: A-107 Lecture Hall
+      objectReference: {fileID: 0}
+    - target: {fileID: -3540495426589365078, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
@@ -979,6 +991,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: f7f37c9dbf807cf4d8f4d1894b120967, type: 2}
     - target: {fileID: -2874765826992384646, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
+      propertyPath: m_Name
+      value: A-103 Staff Room
+      objectReference: {fileID: 0}
+    - target: {fileID: -2874765826992384646, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
@@ -997,6 +1013,10 @@ PrefabInstance:
     - target: {fileID: -2799861809234977830, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -2764512629625626004, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
+      propertyPath: m_Name
+      value: A-105 Language Lab
       objectReference: {fileID: 0}
     - target: {fileID: -2764512629625626004, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1082,6 +1102,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f7f37c9dbf807cf4d8f4d1894b120967, type: 2}
+    - target: {fileID: -2040254050740271484, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
+      propertyPath: m_Name
+      value: A-108 Lecture Hall
+      objectReference: {fileID: 0}
     - target: {fileID: -2040254050740271484, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
@@ -1747,6 +1771,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: f7f37c9dbf807cf4d8f4d1894b120967, type: 2}
     - target: {fileID: 3455292422214010178, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
+      propertyPath: m_Name
+      value: A-101 Visitors
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455292422214010178, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
@@ -2367,6 +2395,10 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9141816029861474070, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
+      propertyPath: m_Name
+      value: A-102 Staff Room
+      objectReference: {fileID: 0}
+    - target: {fileID: 9141816029861474070, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
@@ -2377,6 +2409,10 @@ PrefabInstance:
     - target: {fileID: 9158743094094176133, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9217234437682292332, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
+      propertyPath: m_Name
+      value: A-104 Basic Electronics Lab
       objectReference: {fileID: 0}
     - target: {fileID: 9217234437682292332, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
       propertyPath: m_StaticEditorFlags
