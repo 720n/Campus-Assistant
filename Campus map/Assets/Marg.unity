@@ -388,6 +388,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetObject: {fileID: 1855151114}
   cameraOffset: {x: 0, y: 0, z: 0}
+  smoothFactor: 0.5
+  lookAtTarget: 0
 --- !u!1 &1102425036
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,7 +417,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102425036}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.33, y: -4.05, z: 13.93}
+  m_LocalPosition: {x: -21.43, y: -6.01, z: 1.2}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -694,7 +696,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855151109}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.16, y: 0.98, z: 10.34}
+  m_LocalPosition: {x: -1.77, y: 0.98, z: 8.57}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1020,7 +1022,7 @@ GameObject:
   m_Name: Cube.117
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &83694669643888419
@@ -1549,7 +1551,7 @@ GameObject:
   m_Name: Cube.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &302686851465237324
@@ -1823,7 +1825,7 @@ GameObject:
   m_Name: Cube.072
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &410383520494898557
@@ -2615,7 +2617,7 @@ GameObject:
   m_Name: Cube.121
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &715841819110062277
@@ -2863,7 +2865,7 @@ GameObject:
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &835821627164184233
@@ -4267,7 +4269,7 @@ GameObject:
   m_Name: Cube.077
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &1295866398210364017
@@ -4637,7 +4639,7 @@ GameObject:
   m_Name: Cube.125
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &1431928627553624740
@@ -4777,7 +4779,7 @@ GameObject:
   m_Name: Cube.076
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &1466806967131499788
@@ -4852,7 +4854,7 @@ GameObject:
   m_Name: Cube.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &1505466024988793554
@@ -5169,7 +5171,7 @@ GameObject:
   m_Name: Cube.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &1585015375211997090
@@ -5404,7 +5406,7 @@ GameObject:
   m_Name: A-106 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &1714901262513871525
@@ -5628,7 +5630,7 @@ GameObject:
   m_Name: Cube.070
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &1808775292720505995
@@ -6048,7 +6050,7 @@ GameObject:
   m_Name: Cube.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &1957819986880165141
@@ -6123,7 +6125,7 @@ GameObject:
   m_Name: Cube.069
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &1998131546758285139
@@ -6141,7 +6143,7 @@ GameObject:
   m_Name: Cube.078
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &2001263134508720364
@@ -6308,7 +6310,7 @@ GameObject:
   m_Name: Cube.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2079618063814172217
@@ -6584,7 +6586,7 @@ GameObject:
   m_Name: Cube.112
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2298629266364856732
@@ -7220,7 +7222,7 @@ GameObject:
   m_Name: Cube.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &2490194676017490966
@@ -9314,7 +9316,7 @@ GameObject:
   m_Name: Cube.115
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &3331789696767384179
@@ -9560,7 +9562,7 @@ GameObject:
   m_Name: A-101 Visitors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &3468639198891345826
@@ -9620,7 +9622,7 @@ GameObject:
   m_Name: A-10W Girls' Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &3471422608306435858
@@ -9834,7 +9836,7 @@ GameObject:
   m_Name: Cube.073
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &3567318533279967691
@@ -11574,7 +11576,7 @@ GameObject:
   m_Name: Cube.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &4321514657058357125
@@ -11752,7 +11754,7 @@ GameObject:
   m_Name: Cube.018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &4358550973044172582
@@ -12027,7 +12029,7 @@ GameObject:
   m_Name: Cube.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4508381591701918483
@@ -13563,7 +13565,7 @@ GameObject:
   m_Name: Cube.120
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &5109987460013313647
@@ -13732,7 +13734,7 @@ GameObject:
   m_Name: Cube.113
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &5191685467335565849
@@ -13917,7 +13919,7 @@ GameObject:
   m_Name: Cube.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &5258094971015465569
@@ -14435,7 +14437,7 @@ GameObject:
   m_Name: Cube.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &5473709128441038074
@@ -14956,7 +14958,7 @@ GameObject:
   m_Name: A-107 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &5700249660888421571
@@ -15418,7 +15420,7 @@ GameObject:
   m_Name: Cube.118
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &5979769515616900071
@@ -15577,7 +15579,7 @@ GameObject:
   m_Name: Cube.119
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &6014503084590553921
@@ -15595,7 +15597,7 @@ GameObject:
   m_Name: Cube.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &6027543245847222004
@@ -15845,7 +15847,7 @@ GameObject:
   m_Name: Cube.116
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &6097919615137624990
@@ -16467,7 +16469,7 @@ GameObject:
   m_Name: A-103 Staff Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &6351714108366993012
@@ -16665,7 +16667,7 @@ GameObject:
   m_Name: A-105 Language Lab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &6458904001152734287
@@ -17948,7 +17950,7 @@ GameObject:
   m_Name: Cube.075
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &6975654130055716240
@@ -17989,7 +17991,7 @@ GameObject:
   m_Name: Cube.122
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &7029752985183311732
@@ -18067,7 +18069,7 @@ GameObject:
   m_Name: Cube.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &7045030354236885202
@@ -18465,7 +18467,7 @@ GameObject:
   m_Name: Cube.074
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &7152520436465453590
@@ -18582,7 +18584,7 @@ GameObject:
   m_Name: Cube.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &7181012072990890662
@@ -18642,7 +18644,7 @@ GameObject:
   m_Name: A-108 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &7184499552187392270
@@ -18743,8 +18745,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65702494928608620}
-  m_LocalRotation: {x: -0.021350028, y: 0.9785285, z: -0.15509132, w: -0.13406296}
-  m_LocalPosition: {x: -0.8496151, y: 8.281588, z: 36.039856}
+  m_LocalRotation: {x: -0.094604276, y: 0.8921084, z: -0.2206055, w: -0.38278708}
+  m_LocalPosition: {x: 6.3963966, y: 10.120789, z: 19.545948}
   m_LocalScale: {x: 0.9999999, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19385,6 +19387,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetObject: {fileID: 1855151114}
   cameraOffset: {x: 0, y: 0, z: 0}
+  smoothFactor: 0.5
+  lookAtTarget: 0
 --- !u!23 &7375753292166958505
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19739,7 +19743,7 @@ GameObject:
   m_Name: Cube.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &7629100572705474704
@@ -19930,7 +19934,7 @@ GameObject:
   m_Name: Cube.123
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &7714095210287864532
@@ -20794,7 +20798,7 @@ GameObject:
   m_Name: Cube.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &8010269898154305189
@@ -21746,7 +21750,7 @@ GameObject:
   m_Name: Cube.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &8490260993373280334
@@ -22407,7 +22411,7 @@ GameObject:
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &8709458868053845915
@@ -22558,7 +22562,7 @@ GameObject:
   m_Name: Cube.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &8775133471181699624
@@ -22584,7 +22588,7 @@ GameObject:
   m_Name: Cube.114
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &8787755385480363297
@@ -22860,7 +22864,7 @@ GameObject:
   m_Name: Cube.071
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &8871173861407256638
@@ -23295,7 +23299,7 @@ GameObject:
   m_Name: Cube.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &9017328541790188701
@@ -23510,7 +23514,7 @@ GameObject:
   m_Name: A-102 Staff Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &9145341258008239442
@@ -23699,6 +23703,6 @@ GameObject:
   m_Name: A-104 Basic Electronics Lab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
