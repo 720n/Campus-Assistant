@@ -300,6 +300,7 @@ GameObject:
   - component: {fileID: 915059553}
   - component: {fileID: 915059552}
   - component: {fileID: 915059551}
+  - component: {fileID: 915059554}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -371,8 +372,22 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &915059554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915059550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe9ab3b162fb77459bba3d66c143594, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObject: {fileID: 1855151114}
+  cameraOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &1102425036
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,7 +577,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1855151109
 GameObject:
@@ -795,7 +810,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &15045261352680768
 MeshRenderer:
@@ -967,6 +982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7202193381174514505}
   - component: {fileID: 7370277068315127722}
+  - component: {fileID: 7370277068315127723}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -2294,7 +2310,7 @@ Transform:
   - {fileID: 278168431}
   - {fileID: 424495878}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &547282166914772333
 MeshFilter:
@@ -19355,6 +19371,20 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &7370277068315127723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65702494928608620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe9ab3b162fb77459bba3d66c143594, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObject: {fileID: 1855151114}
+  cameraOffset: {x: 0, y: 0, z: 0}
 --- !u!23 &7375753292166958505
 MeshRenderer:
   m_ObjectHideFlags: 0
