@@ -3,6 +3,8 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CameraControl
     - PlayerController
+    Unity.ProBuilder.Editor.dll:
+    - UnityEditor.ProBuilder.PolyShapeTool
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -81,8 +83,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5610}
     - Class: 114
       Script: {instanceID: 8162}
-    - Class: 114
-      Script: {instanceID: 25590}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
